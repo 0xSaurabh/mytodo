@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mytodo/static/css/main.f3e83cb9.chunk.css",
+    "main.js": "/mytodo/static/js/main.f28bff64.chunk.js",
+    "main.js.map": "/mytodo/static/js/main.f28bff64.chunk.js.map",
+    "runtime-main.js": "/mytodo/static/js/runtime-main.7d38feb6.js",
+    "runtime-main.js.map": "/mytodo/static/js/runtime-main.7d38feb6.js.map",
+    "static/js/2.85f20517.chunk.js": "/mytodo/static/js/2.85f20517.chunk.js",
+    "static/js/2.85f20517.chunk.js.map": "/mytodo/static/js/2.85f20517.chunk.js.map",
+    "index.html": "/mytodo/index.html",
+    "precache-manifest.74027b8048b609509ceee279c6c1f17d.js": "/mytodo/precache-manifest.74027b8048b609509ceee279c6c1f17d.js",
+    "service-worker.js": "/mytodo/service-worker.js",
+    "static/css/main.f3e83cb9.chunk.css.map": "/mytodo/static/css/main.f3e83cb9.chunk.css.map",
+    "static/js/2.85f20517.chunk.js.LICENSE.txt": "/mytodo/static/js/2.85f20517.chunk.js.LICENSE.txt",
+    "static/media/EnterItems.css": "/mytodo/static/media/enter.b539e89c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d38feb6.js",
+    "static/js/2.85f20517.chunk.js",
+    "static/css/main.f3e83cb9.chunk.css",
+    "static/js/main.f28bff64.chunk.js"
+  ]
+}
