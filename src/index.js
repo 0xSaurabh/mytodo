@@ -4,7 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+let myTodo = localStorage.getItem('myTodo');
+
+myTodo = JSON.parse(myTodo);
+
+ReactDOM.render(<App todo={myTodo}/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

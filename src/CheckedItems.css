@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.itemContainer-checked{
+    display: grid;
+    grid-template-columns: 1fr 24px 60% 24px 1fr;
+    grid-column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemContainer-checked button{
+    background: none;
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in-out 0.4s;
+    animation: anim 0.4s ease-in-out forwards;
+    grid-column: 2/3;
+}
+
+.animate{
+    animation: anim-3 0.4s ease-in-out forwards; 
+}
+
+@keyframes anim-3{
+    from{
+        transform: scale(0.97);
+        opacity: 0;
+    } to {
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim{
+    from{
+        transform: scale(0.5);
+    } to {
+        transform: scale(1.0);
+    }
+}
+
+.itemContainer-checked button:focus{
+    outline: none;
+}
+
+.itemContainer-checked .checkbox{
+    height: 24px;
+    width: 24px;
+}
+
+.itemContainer-checked .checkbox #ellipse{
+    fill: #32FC61;
+}
+
+.itemContainer-checked .checkbox:hover #ellipse{
+    animation: hover-todo-reverse 0.4s ease-in-out forwards;
+}
+
+.itemContainer-checked .checkbox #ellipse{
+    animation: hover-todo 0.4s ease-in-out forwards;
+}
+
+
+
+@keyframes hover-todo-reverse{
+    from{
+        fill: #32fc61;
+    } to {
+        fill: #ffffff;
+    }
+}
+
+.itemContainer-checked .Items{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    width: 100%;
+    padding: 12px;
+    border: solid #3f3f3f 1px;
+    margin: 5px auto;
+    border-radius: 12px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    grid-column: 3/4; 
+    text-decoration: line-through;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Nav-Bar{
+    display: flex;
+    height: 10vh;
+    width: 95vw;
+    margin: auto;
+    align-items: center;
+}
+
+.logo h1{
+    font-family: 'Lilita One';
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 6px;
+}

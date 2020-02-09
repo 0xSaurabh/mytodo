@@ -1,0 +1,62 @@
+.enter-todo{
+    display: grid;
+    grid-template-columns: 1fr 24px 60% 24px 1fr;
+    grid-column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0;
+    margin-bottom: 2%;
+}
+
+.enter-todo button{
+    background: url(./enter.svg);
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in-out 0.4s;
+    transform: scale(1);
+    grid-column: 4/5;
+}
+
+.enter-todo button:focus{
+    outline: none;
+}
+
+.enter-todo button:hover{
+    transform: scale(1.2);
+}
+
+.enter-todo input{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 12px;
+    width: 100%;
+    border: solid  #3F3F3F 1px;
+    border-radius: 12px;
+    justify-self: center;
+    grid-column: 3/4;
+    box-sizing: border-box;
+}
+
+.enter-todo input{
+    outline: none;
+}
+
+.section-div{
+    display: grid;
+    grid-template-columns: 1fr 24px 60% 24px 1fr;
+    grid-column-gap: 20px;
+    margin: 20px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.section{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: grey;
+    font-weight: lighter;
+    grid-column: 3/4;
+}
